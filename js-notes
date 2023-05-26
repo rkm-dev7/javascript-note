@@ -1,0 +1,14 @@
+JSON.parse():
+=> The JSON.parse() function is a built-in JavaScript method that is used to parse (or convert) a JSON string into a JavaScript object. 
+
+Object.assign();
+=>In JavaScript, Object.assign() is a method that allows you to create a new object by merging properties from one or more source objects into a target object. 
+It works like making a copy of properties from different objects and combining them into a single object.
+// Examples
+const targetObject = {};  // The empty target object
+
+const sourceObject1 = { name: "John" };
+const sourceObject2 = { age: 25 };
+
+const mergedObject = Object.assign(targetObject, sourceObject1, sourceObject2);
+console.log(mergedObject);  // { name: "John", age: 25 }
